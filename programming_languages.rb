@@ -5,6 +5,7 @@ def reformat_languages(languages)
     info.each do |language, value|
         if hash == language
       binding.pry
+      end
     end
   end
 end

@@ -4,6 +4,7 @@ def reformat_languages(languages)
   languages.each do |style, info|
     info.each do |language, value|
         if hash[language]
+          language
       binding.pry
       end
     end

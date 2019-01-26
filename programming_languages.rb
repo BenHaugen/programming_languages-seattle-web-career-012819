@@ -5,7 +5,8 @@ def reformat_languages(languages)
     language.each do |info, type_info|
       if hash[info]
           hash[info][:style] << style
-          binding.pry
+      else
+        hash[info] = {style: [style], }
       end
     end
   end
